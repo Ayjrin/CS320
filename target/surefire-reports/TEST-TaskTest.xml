@@ -1,77 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TaskTest" time="0.001" tests="16" errors="0" skipped="0" failures="0">
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="16" failures="0" name="TaskTest" time="0" errors="0" skipped="0">
   <properties>
-    <property name="java.specification.version" value="23"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/adriantull/Desktop/School/cs320/target/test-classes:/Users/adriantull/Desktop/School/cs320/target/classes:/Users/adriantull/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/adriantull/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
-    <property name="java.vm.vendor" value="Homebrew"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="java.vm.specification.version" value="23"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.28+6-post-Ubuntu-1ubuntu122.04.1"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/ayjrin/Desktop/School/CS320/mod5/CS320"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
     <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/adriantull/Desktop/School/cs320/target/surefire/surefirebooter-20250929000533051_3.jar /Users/adriantull/Desktop/School/cs320/target/surefire 2025-09-29T00-05-33_008-jvmRun1 surefire-20250929000533051_1tmp surefire_0-20250929000533051_2tmp"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/ayjrin/Desktop/School/CS320/mod5/CS320"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.28+6-post-Ubuntu-1ubuntu122.04.1"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/tmp/.mount_CursoryGGjbr/usr/lib/:/tmp/.mount_CursoryGGjbr/usr/lib32/:/tmp/.mount_CursoryGGjbr/usr/lib64/:/tmp/.mount_CursoryGGjbr/lib/:/tmp/.mount_CursoryGGjbr/lib/i386-linux-gnu/:/tmp/.mount_CursoryGGjbr/lib/x86_64-linux-gnu/:/tmp/.mount_CursoryGGjbr/lib/aarch64-linux-gnu/:/tmp/.mount_CursoryGGjbr/lib32/:/tmp/.mount_CursoryGGjbr/lib64/::/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/adriantull/Desktop/School/cs320/target/test-classes:/Users/adriantull/Desktop/School/cs320/target/classes:/Users/adriantull/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/adriantull/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/Users/adriantull"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.15.0-156-generic"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/ayjrin"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="ayjrin"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2025-01-21"/>
-    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home"/>
-    <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/adriantull/Desktop/School/cs320"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/adriantull/Desktop/School/cs320/target/surefire/surefirebooter-20250929000533051_3.jar"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="23.0.2"/>
-    <property name="user.name" value="adriantull"/>
-    <property name="stdout.encoding" value="UTF-8"/>
-    <property name="path.separator" value=":"/>
-    <property name="os.version" value="15.5"/>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Homebrew"/>
-    <property name="localRepository" value="/Users/adriantull/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
-    <property name="java.io.tmpdir" value="/var/folders/kx/fz8rfp4j06l6twsbk0tv07j00000gn/T/"/>
-    <property name="java.version" value="23.0.2"/>
-    <property name="user.dir" value="/Users/adriantull/Desktop/School/cs320"/>
-    <property name="os.arch" value="aarch64"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="native.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/adriantull/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="stderr.encoding" value="UTF-8"/>
-    <property name="java.vendor" value="Homebrew"/>
-    <property name="java.vm.version" value="23.0.2"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.class.version" value="67.0"/>
+    <property name="java.version" value="11.0.28"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testNameNull" classname="TaskTest" time="0.0"/>
-  <testcase name="testNameTooLong" classname="TaskTest" time="0.0"/>
-  <testcase name="testSetNameNull" classname="TaskTest" time="0.0"/>
-  <testcase name="testSetDescription" classname="TaskTest" time="0.0"/>
-  <testcase name="testDescriptionTooLong" classname="TaskTest" time="0.0"/>
-  <testcase name="testTaskIdMaxLength" classname="TaskTest" time="0.0"/>
-  <testcase name="testSetDescriptionTooLong" classname="TaskTest" time="0.0"/>
-  <testcase name="testNameMaxLength" classname="TaskTest" time="0.0"/>
-  <testcase name="testSetNameTooLong" classname="TaskTest" time="0.0"/>
-  <testcase name="testDescriptionMaxLength" classname="TaskTest" time="0.0"/>
-  <testcase name="testSetDescriptionNull" classname="TaskTest" time="0.0"/>
-  <testcase name="testTaskIdNull" classname="TaskTest" time="0.0"/>
-  <testcase name="testDescriptionNull" classname="TaskTest" time="0.0"/>
-  <testcase name="testTaskCreation" classname="TaskTest" time="0.0"/>
-  <testcase name="testSetName" classname="TaskTest" time="0.0"/>
-  <testcase name="testTaskIdTooLong" classname="TaskTest" time="0.0"/>
+  <testcase classname="TaskTest" name="testNameNull" time="0"/>
+  <testcase classname="TaskTest" name="testNameTooLong" time="0"/>
+  <testcase classname="TaskTest" name="testSetNameNull" time="0"/>
+  <testcase classname="TaskTest" name="testSetDescription" time="0"/>
+  <testcase classname="TaskTest" name="testDescriptionTooLong" time="0"/>
+  <testcase classname="TaskTest" name="testTaskIdMaxLength" time="0"/>
+  <testcase classname="TaskTest" name="testSetDescriptionTooLong" time="0"/>
+  <testcase classname="TaskTest" name="testNameMaxLength" time="0"/>
+  <testcase classname="TaskTest" name="testSetNameTooLong" time="0"/>
+  <testcase classname="TaskTest" name="testDescriptionMaxLength" time="0"/>
+  <testcase classname="TaskTest" name="testSetDescriptionNull" time="0"/>
+  <testcase classname="TaskTest" name="testTaskIdNull" time="0"/>
+  <testcase classname="TaskTest" name="testDescriptionNull" time="0"/>
+  <testcase classname="TaskTest" name="testTaskCreation" time="0"/>
+  <testcase classname="TaskTest" name="testSetName" time="0"/>
+  <testcase classname="TaskTest" name="testTaskIdTooLong" time="0"/>
 </testsuite>
